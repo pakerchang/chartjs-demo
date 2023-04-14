@@ -19,6 +19,8 @@ pnpm dev
 - react-chartjs-2^5.2.0
 - chartjs-plugin-zoom^2.0.1
 
+---
+
 ## develop
 
 Google 大部分的 example 都是在 chart.js^2, chartjs-plugin-zoom^0.7, react-chartjs-2^ 之前的版本  
