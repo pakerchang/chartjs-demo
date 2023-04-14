@@ -24,7 +24,7 @@ pnpm dev
 ## develop
 
 Google 大部分的 example 都是在 chart.js^2, chartjs-plugin-zoom^0.7, react-chartjs-2^ 之前的版本  
-而在最新版本裡所使用的寫法以不同於舊版本
+而在最新版本裡所使用的寫法已不同於舊版本
 
 新舊版本差異由為明顯的是下列這段:
 
