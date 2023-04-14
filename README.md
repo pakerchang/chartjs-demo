@@ -37,4 +37,4 @@ ChartJS.register(...registerables, zoomPlugin);
 可以直接使用 `registerables`
 
 如果需要使用 chart.js 生態圈裡額外提供的 plugin，則需要一併引入 register 中  
-並在 Chart component 的 options 中加入相關設定，就如同以往的版本一樣，唯一需要注意的是 configuration 的格式結構也做了一定程度的改動，舊有的寫法可能會造成 crash 或是讀取不到設置
+並在 Chart component 的 options 中加入相關設定，唯一需要注意的是 configuration 的格式結構也做了一定程度的改動，舊有的寫法可能會造成 crash 或是讀取不到設置
