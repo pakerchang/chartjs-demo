@@ -2,7 +2,7 @@
 
 ## A chart demo with react v18
 
-## dev
+## Dev
 
 ```zsh
 pnpm install
@@ -12,7 +12,7 @@ pnpm dev
 
 ---
 
-## deps
+## Deps
 
 - react^18.2.28
 - chart.js^4.2.1
@@ -21,7 +21,7 @@ pnpm dev
 
 ---
 
-## develop
+## Develop
 
 Google 大部分的 example 都是在 chart.js^2, chartjs-plugin-zoom^0.7, react-chartjs-2^ 之前的版本  
 而在最新版本裡所使用的寫法已不同於舊版本
