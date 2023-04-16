@@ -3,7 +3,6 @@ import { Chart as ChartJS, registerables } from "chart.js";
 import zoomPlugin from "chartjs-plugin-zoom";
 import { Line } from "react-chartjs-2";
 import { resData } from "@/utils/data";
-
 ChartJS.register(...registerables, zoomPlugin);
 
 function LineChart() {
@@ -22,11 +21,12 @@ function LineChart() {
   };
 
   const options = {
+    responsive: true,
     scales: {
       x: {
         stacked: false,
-        // min: 0,
-        // max: counts,
+        min: 0,
+        max: counts,
       },
     },
     plugins: {
@@ -47,6 +47,7 @@ function LineChart() {
 
   const addData = () => counts < 150 && setCounts(counts + 20);
   const minsData = () => counts > 10 && setCounts(counts - 20);
+
   return (
     <div
       style={{
@@ -62,6 +63,7 @@ function LineChart() {
         <button onClick={addData} disabled={counts > 150}>
           +
         </button>
+
         <button onClick={minsData} disabled={counts < 10}>
           -
         </button>
